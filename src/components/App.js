@@ -4,7 +4,10 @@ export default class App extends React.Component {
   
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <h4>App component here </h4>
+        {this.props.children}
+      </div>
     )
   }
 }
